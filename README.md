@@ -11,7 +11,3 @@ borp is a lightweight rpc framework built on top of [bogo](https://github.com/bu
 ```bash
 go run .
 ```
-
----
-
-*abena*
