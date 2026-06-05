@@ -4,7 +4,7 @@ a go-native rpc framework built on top of [bogo](https://github.com/bubunyo/bogo
 
 ## what
 
-borp is a lightweight rpc framework built on top of [bogo](https://github.com/bubunyo/bogo) — a fast, compact binary serialization format. the aim is to build something akin to grpc but using bogo as the exchange format instead of protobuf, with no code generation and no separate schema files. your go structs are the schema.
+borp is a lightweight rpc framework powered by [bogo](https://github.com/bubunyo/bogo), a fast and efficient binary serialization format. its goal is to offer a grpc-style developer experience without the complexity of code generation or standalone schema files. with borp, your go structs define the schema, and bogo handles the wire format.
 
 ## how to run
 
